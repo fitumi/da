@@ -5,7 +5,7 @@
 #include <QVector>
 #include "dirinfo.h"
 #include <QMap>
-#include <QMutex.h>
+#include <QMutex>
 
 class Filescan : public QObject
 {
