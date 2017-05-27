@@ -12,4 +12,4 @@ before_install:
 install: true
 
 script:
-  QT_SELECT=qt5 && qmake && make
+  source /opt/qt56/bin/qt56-env.sh && qmake && make
